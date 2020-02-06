@@ -1,0 +1,40 @@
+.bg_yellow{
+background-color: #ffff00;
+}
+
+.bg_green{
+background-color: #00ff00;
+}
+
+.bg_blue{
+background-color: #00ffff;
+}
+
+.bg_red{
+background-color: #fd9796;
+}
+
+.bigger_font{
+font-size: 112%;
+color: #107c03;
+font-weight: bold;
+text-decoration: underline;
+}
+
+.bold_bigger{
+font-size: 100%;
+font-weight: bold; 
+text-decoration: underline;
+color: #b30707
+}
+
+.bold_underlined{
+font-weight: bold; 
+text-decoration: underline;
+color: #212094
+}
+
+.bold_red{
+text-transform: uppercase
+}
+

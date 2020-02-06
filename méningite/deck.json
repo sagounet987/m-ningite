@@ -1,0 +1,1601 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "0f84e3e2-48f8-11ea-a583-20c9d0810917",
+    "deck_config_uuid": "0f38905a-48f8-11ea-a583-20c9d0810917",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 0,
+            "autoAnswer": 180,
+            "autoplay": true,
+            "crowdanki_uuid": "0f38905a-48f8-11ea-a583-20c9d0810917",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.1
+            },
+            "maxTaken": 180,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    6,
+                    7
+                ],
+                "order": 1,
+                "perDay": 999,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 999
+            },
+            "timer": 1
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "37d7d81f31564c4cad848ae1003f2be9-oa-1-A.svg",
+        "37d7d81f31564c4cad848ae1003f2be9-oa-1-Q.svg",
+        "37d7d81f31564c4cad848ae1003f2be9-oa-O.svg",
+        "_editor_button_styles.css",
+        "c5aa4263638044dd815d1e2cae229a84-oa-1-A.svg",
+        "c5aa4263638044dd815d1e2cae229a84-oa-1-Q.svg",
+        "c5aa4263638044dd815d1e2cae229a84-oa-2-A.svg",
+        "c5aa4263638044dd815d1e2cae229a84-oa-2-Q.svg",
+        "c5aa4263638044dd815d1e2cae229a84-oa-3-A.svg",
+        "c5aa4263638044dd815d1e2cae229a84-oa-3-Q.svg",
+        "c5aa4263638044dd815d1e2cae229a84-oa-5-A.svg",
+        "c5aa4263638044dd815d1e2cae229a84-oa-5-Q.svg",
+        "c5aa4263638044dd815d1e2cae229a84-oa-6-A.svg",
+        "c5aa4263638044dd815d1e2cae229a84-oa-6-Q.svg",
+        "c5aa4263638044dd815d1e2cae229a84-oa-7-A.svg",
+        "c5aa4263638044dd815d1e2cae229a84-oa-7-Q.svg",
+        "c5aa4263638044dd815d1e2cae229a84-oa-O.svg",
+        "tmprprv9hp3.png",
+        "tmpwvcy0v2t.png"
+    ],
+    "mid": 1508426287556,
+    "name": "Infectio::2. Méningite (148)",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "css": "@import url(\"_editor_button_styles.css\");\n\n.card {\n font-family: arial;\n font-size: 20px;\n align: center;\n text-align: left;\n color: black;\n background-color: white;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "0f853108-48f8-11ea-a583-20c9d0810917",
+            "css": "@import url(\"_editor_button_styles.css\");\n\n/* GENERAL CARD STYLE */\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n/* OCCLUSION CSS START - don't edit this */\n#io-overlay {\n  position:absolute;\n  top:0;\n  width:100%;\n  z-index:3\n}\n\n#io-original {\n  position:relative;\n  top:0;\n  width:100%;\n  z-index:2\n}\n\n#io-wrapper {\n  position:relative;\n  width: 100%;\n}\n/* OCCLUSION CSS END */\n\n/* OTHER STYLES */\n#io-header{\n  font-size: 1.1em;\n  margin-bottom: 0.2em;\n}\n\n#io-footer{\n  max-width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.8em;\n  font-style: italic;\n}\n\n\n#io-extra-wrapper{\n  /* the wrapper is needed to center the\n  left-aligned blocks below it */\n  width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.5em;\n}\n\n#io-extra{\n  text-align:center;\n  display: inline-block;\n}\n\n.io-extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.io-field-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}\n\n#io-revl-btn {\n  font-size: 0.5em;\n}\n\n/* ADJUSTMENTS FOR MOBILE DEVICES */\n\n.mobile .card, .mobile #content {\n  font-size: 120%;\n  margin: 0;\n}\n\n.mobile #io-extra-wrapper {\n  width: 95%;\n}\n\n.mobile #io-revl-btn {\n  font-size: 0.8em;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "ID (hidden)",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Header",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Image",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Question Mask",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Footer",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Remarks",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Sources",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra 1",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra 2",
+                    "ord": 8,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Answer Mask",
+                    "ord": 9,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Original Mask",
+                    "ord": 10,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Image Occlusion Enhanced",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 1,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{#Image}}\n<script>\n  // Toggle answer mask on clicking the image\n  var toggle = function() {\n    var amask = document.getElementById('io-overlay');\n    if (amask.style.display === 'block' || amask.style.display === '')\n      amask.style.display = 'none';\n    else\n      amask.style.display = 'block'\n  }\n</script>\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Answer Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n{{#Footer}}<div id=\"io-footer\">{{Footer}}</div>{{/Footer}}\n<button id=\"io-revl-btn\" onclick=\"toggle();\">Toggle Masks</button>\n<div id=\"io-extra-wrapper\">\n  <div id=\"io-extra\">\n    {{#Remarks}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Remarks</div>{{Remarks}}\n      </div>\n    {{/Remarks}}\n    {{#Sources}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Sources</div>{{Sources}}\n      </div>\n    {{/Sources}}\n    {{#Extra 1}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 1</div>{{Extra 1}}\n      </div>\n    {{/Extra 1}}\n    {{#Extra 2}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 2</div>{{Extra 2}}\n      </div>\n    {{/Extra 2}}\n  </div>\n</div>\n{{/Image}}\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "IO Card",
+                    "ord": 0,
+                    "qfmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Question Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n<div id=\"io-footer\">{{Footer}}</div>\n{{/Image}}\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "0f5a5fa0-48f8-11ea-a583-20c9d0810917",
+            "css": "@import url(\"_editor_button_styles.css\");\n/* general card style */\n\nhtml {\n  /* scrollbar always visible in order to prevent shift when revealing answer*/\n  overflow-y: scroll;\n}\n\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 115%;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n/* general layout */\n\n.text {\n  /* center left-aligned text on card */\n  display: inline-block;\n  align: center;\n  text-align: left;\n  margin: auto;\n  max-width: 40em;\n}\n\n.hidden {\n  /* guarantees a consistent width across front and back */\n  font-weight: bold;\n  display: block;\n  line-height:0;\n  height: 0;\n  overflow: hidden;\n  visibility: hidden;\n}\n\n.title {\n  font-weight: bold;\n  font-size: 1.1em;\n  margin-bottom: 1em;\n  text-align: center;\n}\n\n/* clozes */\n\n.cloze {\n  /* regular cloze deletion */\n  font-weight: normal;\n  color: #000113;\n}\n\n/* original text reveal hint */\n\n.fullhint a {\n  color: #0048FF;\n}\n\n.card21 .fullhint{\n  /* no need to display hint on last card */\n  display:none;\n}\n\n/* additional fields */\n\n.extra{\n  margin-top: 0.5em;\n  margin: auto;\n  max-width: 40em;\n}\n\n.extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.extra-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Original",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Title",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "external_source",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "external_page",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Remarks",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Sources",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Settings",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text1",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text2",
+                    "ord": 8,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text3",
+                    "ord": 9,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text4",
+                    "ord": 10,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text5",
+                    "ord": 11,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text6",
+                    "ord": 12,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text7",
+                    "ord": 13,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text8",
+                    "ord": 14,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text9",
+                    "ord": 15,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text10",
+                    "ord": 16,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text11",
+                    "ord": 17,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text12",
+                    "ord": 18,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text13",
+                    "ord": 19,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text14",
+                    "ord": 20,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text15",
+                    "ord": 21,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text16",
+                    "ord": 22,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text17",
+                    "ord": 23,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text18",
+                    "ord": 24,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text19",
+                    "ord": 25,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text20",
+                    "ord": 26,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text21",
+                    "ord": 27,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text22",
+                    "ord": 28,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text23",
+                    "ord": 29,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text24",
+                    "ord": 30,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text25",
+                    "ord": 31,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text26",
+                    "ord": 32,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Full",
+                    "ord": 33,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Cloze (overlapping)",
+            "sortf": 1,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<div class=\"back\">\n  {{#Title}}<div class=\"title\">{{Title}}</div>{{/Title}}\n  <div class=\"text\">\n    {{cloze:Text1}}\n    {{cloze:Text2}}\n    {{cloze:Text3}}\n    {{cloze:Text4}}\n    {{cloze:Text5}}\n    {{cloze:Text6}}\n    {{cloze:Text7}}\n    {{cloze:Text8}}\n    {{cloze:Text9}}\n    {{cloze:Text10}}\n    {{cloze:Text11}}\n    {{cloze:Text12}}\n    {{cloze:Text13}}\n    {{cloze:Text14}}\n    {{cloze:Text15}}\n    {{cloze:Text16}}\n    {{cloze:Text17}}\n    {{cloze:Text18}}\n    {{cloze:Text19}}\n    {{cloze:Text20}}\n    {{cloze:Text21}}\n    {{cloze:Text22}}\n    {{cloze:Text23}}\n    {{cloze:Text24}}\n    {{cloze:Text25}}\n    {{cloze:Text26}}\n    {{cloze:Full}}<br><br><br><br>\n\n<a href='javascript:pycmd(\"pdfjs319501851{{text:external_source}}319501851{{text:external_page}}\");'>{{external_source}}</a>\n\n    <div class=\"hidden\">{{Original}}</div>\n  </div>\n  <div class=\"extra\"><hr></div>\n  <div class=\"text\"><div class=\"fullhint\">{{hint:Original}}</div></div>\n  <div class=\"extra\">\n    {{#Remarks}}\n    <div class=\"extra-entry\">\n      <div class=\"extra-descr\">Remarks</div><div>{{Remarks}}</div>\n    </div>\n    {{/Remarks}}\n    {{#Sources}}\n    <div class=>\n      <div class=\"extra-descr\">Sources</div><div>{{Sources}}</div>\n    </div>\n    {{/Sources}}\n  </div>\n</div>\n<script>\n  // remove cloze syntax from revealed hint\n  var hint = document.querySelector('.fullhint>[id^=\"hint\"]')\n  var html = hint.innerHTML.replace(/\\[\\[oc(\\d+)::(.*?)(::(.*?))?\\]\\]/mg, \"$2\")\n  hint.innerHTML = html\n  // scroll to cloze\n  document.addEventListener('DOMContentLoaded', function() {\n    setTimeout(function(){\n      const cloze1 = document.getElementsByClassName(\"cloze\")[0];\n      const rect = cloze1.getBoundingClientRect();\n      const absTop = rect.top + window.pageYOffset;\n      const absBot = rect.bottom + window.pageYOffset;\n      if (absBot >= window.innerHeight) {\n        const height = rect.top - rect.bottom\n        const middle = absTop - (window.innerHeight/2) - (height/2);\n        window.scrollTo(0, middle);};\n    }, 1);\n  }, false);\n</script>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "cloze-ol",
+                    "ord": 0,
+                    "qfmt": "<div class=\"front\">\n  {{#Title}}<div class=\"title\">{{Title}}</div>{{/Title}}\n  <div class=\"text\">\n    {{cloze:Text1}}\n    {{cloze:Text2}}\n    {{cloze:Text3}}\n    {{cloze:Text4}}\n    {{cloze:Text5}}\n    {{cloze:Text6}}\n    {{cloze:Text7}}\n    {{cloze:Text8}}\n    {{cloze:Text9}}\n    {{cloze:Text10}}\n    {{cloze:Text11}}\n    {{cloze:Text12}}\n    {{cloze:Text13}}\n    {{cloze:Text14}}\n    {{cloze:Text15}}\n    {{cloze:Text16}}\n    {{cloze:Text17}}\n    {{cloze:Text18}}\n    {{cloze:Text19}}\n    {{cloze:Text20}}\n    {{cloze:Text21}}\n    {{cloze:Text22}}\n    {{cloze:Text23}}\n    {{cloze:Text24}}\n    {{cloze:Text25}}\n    {{cloze:Text26}}\n    {{cloze:Full}}<br><br><br><br>\n\n<a href='javascript:pycmd(\"pdfjs319501851{{text:external_source}}319501851{{text:external_page}}\");'>{{external_source}}</a>\n\n\n\n    <div class=\"hidden\">{{Original}}</div>\n  </div>\n  <div class=\"extra\"><hr></div>\n  <div class=\"text\"><div class=\"fullhint\">{{hint:Original}}</div></div>\n  <div class=\"extra\"><a "
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A quoi sert l'analyse du LCS dans la méningite et méningo encephalite?",
+                "<div><span class=\"bold_bigger\">Elle permet de confirmer l'atteinte méningée:&nbsp;</span></div><div>-<b>hyperprotéinorachie</b></div><div>-<b>hypercellularité</b></div><div><br></div><div><span style=\"color: rgb(179, 7, 7); font-weight: bold; text-decoration-line: underline;\">Et de distinguer:</span></div><div><b><u>• méningite clair:</u></b><br></div><div>-prédominance <b>lymphocytaire</b></div><div><b><u>• Méningite purulente:</u></b></div><div>-<b>Prédominance PNN </b>(bactérienne++)</div><div>-<b>hypoglycorachie</b> (bactérienne++)</div><div><br></div><div><span style=\"color: rgb(179, 7, 7); font-weight: bold; text-decoration-line: underline;\">Et de réaliser une bactériologie:</span></div><div>• <b>Examen direct</b><br></div><div>• Puis <b>culture et biologie moléculaire</b></div><div><b><br></b></div><div><b>NB: </b>Ne permet pas de distinguer méningo encephalite d'une méningite</div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "C`-4Tmk@7+",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quels sont les signes de gravités necessitant une hospit en réanimation dns la méningo encephalite? (6)",
+                "• <b>Purpura extensif</b><div>• <b>Glasglow &lt;11</b></div><div><b><br></b></div><div>• Signe de <b>focalisation neurologique</b></div><div>• Signes de <b>souffrance du TC</b></div><div><b><br></b></div><div>• Etat de <b>mal convulsif</b></div><div>• <b>Instabilité hémodynamique</b></div>"
+            ],
+            "flags": 0,
+            "guid": "tra*0jz=%_",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Première chose à réaliser devant un purpura fulminans?",
+                "Injection IV, à défaut IM, d'une B lactamine (de préférence ceftriaxone, sinon cefotaxime)"
+            ],
+            "flags": 0,
+            "guid": "layU`DNVqW",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quels sont les CI à la PL d'emblée:",
+                "<div><span style=\"color: rgb(179, 7, 7); font-weight: bold; text-decoration-line: underline;\">CI de nature non neurologique: (4)</span></div><div>• <b>Infection cutanée</b> au point de ponction<br></div><div>• <b>Instabilité hémodynamique ou respiratoire</b></div><div>• <b>Tb de l'hémostase connu:</b></div><div>-coagulopathies dont hémophilie</div><div>-Thrombopénie &lt;50G/L</div><div>• <b>Ttt anticoagulant à dose efficace </b>ou saignement spontané évoquant une <b>CIVD</b></div><div>NB: La prise d'AINS ne CI pas la PL</div><div><br></div><div><span style=\"color: rgb(179, 7, 7); font-weight: bold; text-decoration-line: underline;\">Présence de signes cliniques évocateurs d'un processus expansif intra cranien:</span></div><div><b><u>• Déficit moteur:<br></u></b></div><div>-<b>PF centrale</b></div><div>-<b>Déficit membre supp/inf/oculo-moteur/nystagmus</b></div><div><b><u>• Déficit sensitif d'un hémicorps à la piqure</u></b></div><div><b>• HLH</b></div><div><b>• SD cérébelleux</b></div><div><br></div><div><span style=\"color: rgb(179, 7, 7); font-weight: bold; text-decoration-line: underline;\">Présence de signes d'engagement cérébral =&nbsp; tb de la vigilance ET un/plusieurs des éléments suivants:</span></div><div>• <b>Anomalies pupillaires</b><br></div><div>• <b>Dysautonomie</b> (HTA,bradycardie, anomalie rythme ventilatoire)</div><div>• <b>Crises toniques postérieures</b></div><div>• <b>Aréactivité aux stimulations</b></div><div>• <b>Réactions de décortication ou décérébration</b></div><div><br></div><div><span class=\"bold_bigger\">Crise convulsives persistantes&nbsp;</span><br></div><div><span class=\"bold_bigger\"><br></span></div>"
+            ],
+            "flags": 0,
+            "guid": "M4Vw<|G+iC",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quel précaution faut-il prendre devant une suspicion de méningite à méningocoque ?",
+                "Ne pas oublier le masque chirurgical pendant les 24 premieres heures d'antibio"
+            ],
+            "flags": 0,
+            "guid": "fn{g*+(iL*",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quels sont les examens biologiques systematiques à faire sur le LCR devant une méningite? (4)",
+                "<div><span class=\"bold_bigger\">• Analyse biochimiques:&nbsp;</span></div><div>-<b>protéinorachies</b></div><div>-<b>glycorachie</b></div><div>-<b>lactate</b></div><div><br></div><div><span class=\"bold_bigger\">• Cytologie&nbsp;</span><br></div><div><span class=\"bold_bigger\"><br></span></div><div><span style=\"color: rgb(179, 7, 7); font-weight: bold; text-decoration-line: underline;\">• Examen bactériologique:</span></div><div>-<b>transport rapide</b> (méningocoque fragile)<br></div><div>-<b>examen</b> <b>direct avec coloration Gram </b>(S90% si pneumocoque, S70% si méningocoque, S40% si listeria)</div><div>-<b>culture</b> (S80%) + antibiogramme</div><div><br></div><div><span class=\"bold_bigger\">• Conserver un tube LCS à 4°C</span><br></div><div><span class=\"bold_bigger\"><br></span></div>"
+            ],
+            "flags": 0,
+            "guid": "of8pkHa#K)",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quel examen on fait si forte suspicion de méningite bactérienne malgré examen direct négatif&nbsp; <u>sur le LCR</u>?",
+                "<b><u>Dans l'ordre:</u></b><div><br></div><div>•&nbsp;<span class=\"bg_yellow\"><b>Antigene pneumocoque</b></span></div><div>• <u>si négatif</u>, <b>PCR méningocoque</b></div><div><br></div><div>• Si<u> faible suspicion</u> de méningite bactérienne:&nbsp;<b>PCR entérovirus&nbsp;</b></div>"
+            ],
+            "flags": 0,
+            "guid": "k,Pz#1).<C",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quel sérologie on fait devant une méningite lymphocytaire? (3)",
+                "Sérologies VDRL-TPHA<div>Borréliose de Lyme</div><div>VIH...</div>"
+            ],
+            "flags": 0,
+            "guid": "F22UJ0JF/f",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Si orientation clinique de méningite à tuberculose quel examen complémentaire on réalise? (3)",
+                "• <b>Coloration Ziel-Neelsen</b> pour rechercher BAAR<div>• <b>PCR BK</b></div><div>• <b>Culture spécifique</b></div>"
+            ],
+            "flags": 0,
+            "guid": "B=@oCmI-bc",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Chez l'immunodéprimé avec suspicion de méningite, examen complémentaire?",
+                "<b><u>Recherche de cryptocoque:</u></b><div><b><span class=\"bg_yellow\">-Coloration encre de chine puis examen direct</span><br></b></div><div><b>-Antigene sang et LCS</b></div><div>-Test rapide</div><div>-Culture</div>"
+            ],
+            "flags": 0,
+            "guid": "jhfTWU(,LM",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Difference entre la prise en charge d'une méningite et d'une encephalite avec LCS lymphocytaire/panachée ?",
+                "Dans l'encephalite on prescrit amox + aciclovir en probabiliste&nbsp;"
+            ],
+            "flags": 0,
+            "guid": "j/hS;`.di3",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "c5aa4263638044dd815d1e2cae229a84-oa-1",
+                "",
+                "<img src=\"tmpwvcy0v2t.png\" />",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-1-A.svg\" />",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "D0T6^p1-1T",
+            "newlyAdded": false,
+            "note_model_uuid": "0f853108-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "c5aa4263638044dd815d1e2cae229a84-oa-2",
+                "",
+                "<img src=\"tmpwvcy0v2t.png\" />",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-2-A.svg\" />",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "P$u4,}:{]e",
+            "newlyAdded": false,
+            "note_model_uuid": "0f853108-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "c5aa4263638044dd815d1e2cae229a84-oa-5",
+                "",
+                "<img src=\"tmpwvcy0v2t.png\" />",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-5-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-5-A.svg\" />",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "J[*|MbAod;",
+            "newlyAdded": false,
+            "note_model_uuid": "0f853108-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "c5aa4263638044dd815d1e2cae229a84-oa-6",
+                "",
+                "<img src=\"tmpwvcy0v2t.png\" />",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-6-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-6-A.svg\" />",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "t<fH.U3t*+",
+            "newlyAdded": false,
+            "note_model_uuid": "0f853108-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "c5aa4263638044dd815d1e2cae229a84-oa-7",
+                "",
+                "<img src=\"tmpwvcy0v2t.png\" />",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-7-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-7-A.svg\" />",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "F~7PzpYY@]",
+            "newlyAdded": false,
+            "note_model_uuid": "0f853108-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Dans quel type de méningite tu dois antibio + vaccination + déclaration obligatoire des cas contact?",
+                "dans les méningites à méningocoque"
+            ],
+            "flags": 0,
+            "guid": "C`^,ha!)A)",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Epidemiologie des 3 principales bactéries responsable de méningite?",
+                "<div><span style=\"color: rgb(179, 7, 7); font-weight: bold; text-decoration-line: underline;\">Pneumocoque:&nbsp;</span></div><div>• <b>55% des méningites</b> (mais seulement 15% chez les 15-24ans)<br></div><div>• <b>20% ont une sensibilité diminué à la penicilline G</b></div><div><br></div><div><span style=\"color: rgb(179, 7, 7); font-weight: bold; text-decoration-line: underline;\">Méningocoque:</span></div><div>• <b>25% des méningites</b></div><div><div>•&nbsp;<b>30% ont une sensibilité diminué à la penicilline G</b></div></div><div>• <b>Diminue avec l'age</b> (80% chez les 15-24ans, 10% &gt;65ans)</div><div>• <b>Pic hivernalle</b></div><div>• <b>Serotype</b> <b>B(60%) et C(30%)</b> ++<br></div><div><br></div><div><span style=\"color: rgb(179, 7, 7); font-weight: bold; text-decoration-line: underline;\">Listeria Monocytogenes:</span></div><div>• <b>10% des méningites</b><br></div><div>• <b>Augmente avec l'age</b> (2% 15-24ans, 15% &gt;65ans)</div>"
+            ],
+            "flags": 0,
+            "guid": "bVudq:P!Jw",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Méningocoque physiopathologie dans la méningite",
+                "• <b>50% porteur asymptomatique</b> nasopharyngée<div>• <b>Transmission interhumaine directe proche et prolongée</b> (ne survit pas en milieu exterieur)&nbsp;</div><div><br></div><div>• <b><u>Majorité</u></b> des cas simple <b>colonisation</b> du nasopharynx</div><div>• <b><u>Minorité</u></b> <b>bactériemie</b> responsable des méningites à méningocoques</div>"
+            ],
+            "flags": 0,
+            "guid": "EeS}[5ERaZ",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pneumocoque physiopath dans la méningite",
+                "<div><span class=\"bg_yellow\">• Pas de transmission interhumaine&nbsp;</span></div><div><b><u>• Diffuse via:</u></b></div><div>-Foyer <b>ORL</b></div><div>-<b>Portage oropharyngée</b> avec breche ostéoméningée</div><div>-<b>Foyer profond du poumon</b> par <u>voie hematogene</u></div>"
+            ],
+            "flags": 0,
+            "guid": "d/sa,Sygz`",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Listeria physiopath dans la méningite",
+                "• Transmission par <u>voie hématogene</u> <b>à partir du tube digestif</b><div>• <u>En cas d'encephalite:</u> lésions prédominent a/n du <b>tronc cerebral </b>(<b>rhombencéphalite</b>)</div>"
+            ],
+            "flags": 0,
+            "guid": "ioF#y^B;nY",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Méningite infectieuses diagnostic positif?",
+                "<div><b><u>• SD méningé:</u></b><br></div><div>-<b>Céphalées violentes</b>, diffuses, en casque</div><div>-<b>Photophobie, Nausées,&nbsp;vomissements</b></div><div>-<b>Raideur de nuque douloureuse</b> lors de la flexion active ou passive du rachis cervical</div><div><br></div><div><b><u>• Fièvre, frissons</u></b></div><div><br></div><div><b><u>• Signes neurologiques centraux </u></b>possibles si <u>encephalite</u> (tb des fonctions supérieures, tb de vigilance, signe de focalisation)</div>"
+            ],
+            "flags": 0,
+            "guid": "uw(/>woD;Q",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Chez les sujets agés c'est quel type de méningite qui prédomine?",
+                "C'est les méningites bactériennes (le pb est de faire la part entre méningite bactériennes et une infection non méningée)"
+            ],
+            "flags": 0,
+            "guid": "pR;9{A@bv7",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quel bilan biologique réalise t-on en dehors de la PL devant une suspicion de méningite?",
+                "• NFS, plaquette, iono, creat, glycemie,<b> bilan hepatique, bilan d'hemostase, pro calcitonine</b><div>• <b>Hémocultures 2x</b></div><div>• <b>Dépisage VIH systematique<br></b></div><div>• Biopsie d'une eventuelle lésion cutanée purpurique si LCS non contributif ou PL non réalisable</div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "OwI?JM+Cga",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "début de l'antibiothérapie en fonction des situations de méningites (5 cas)",
+                "• <b>Direct</b> si <u>purpura fulminans en dehors de l'hopital</u><div>• <b>Après hemoc</b> si <u>purpura fulminans pris en charge à l'hopital</u> (PL pas nécessaire)</div><div><br></div><div><b><u>• Après hémoc, avant PL si:</u></b></div><div>-CI PL</div><div>-&gt;90min de l'hopital</div><div><br></div><div><b><u>• Avant résultat de PL et hémoc si:</u></b></div><div>-LCS macroscopiquement <b>trouble</b></div><div>-<b>très forte suspicion de méningite bactérienne</b> (purpura non fulminans par ex)</div><div><br></div><div><b><u>• Après les résultats de l'examen direct du LCS:</u></b></div><div>-Examen <b>direct/antigene positif</b> à <u>pneumocoque</u></div><div>-Examen direct nég mais <b><u>faisceaux d'arguments en faveur d'une origine bactérienne:</u></b></div><div>-<b>cellularité</b> &gt;1000/mm3 + PNN&gt;50%</div><div>-<b>Glycorachie</b> &lt;0,4x glycemie</div><div>-<b>Lactate</b> &gt;3,2mmol/L</div><div>-<b>Protéinorachie</b> &gt;1g/L</div><div>-<b>Procalcitonine</b> &gt;0,5ng/ml</div><div><br></div><div>NB: dans tous les cas l'antibiothérapie doit être debuté <b>au max 1h après le début de la prise en charge,</b> en cas de méningite purulente <b>hospit en réa ou soins intensif recommandé++</b></div>"
+            ],
+            "flags": 0,
+            "guid": "g`m`Flw7&)",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Une infection a Listeria va donner quel type de LCS?",
+                "<b>• LCS panachée:&nbsp;</b>PNN et lymphocytes égaux<div><b>• LCS hypoglycorachique</b></div>"
+            ],
+            "flags": 0,
+            "guid": "OhKte2N>Om",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "LCS hémorragique etiologie et CAT",
+                "• <b>hémorragie méningé ou piqure vasculaire</b> (LCS s'éclaircit)<div>• <u>Plus rarement:</u></div><div>-<b>Méningite infectieuse </b>(bactérienne, tuberculeuse, rupture d'un anévrysme mycotique cérébral)</div><div><br></div><div>Culture du LCS Systematique</div>"
+            ],
+            "flags": 0,
+            "guid": "iq|0A(R?;#",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Comment est le LCS dans la méningite à liquide clair?<div>cellularité</div><div>glycorachie</div><div>protéinorachie</div><div>lactatorachie</div><div>examen direct</div>",
+                "<b><u>• Cellularité:&nbsp;</u></b><div>5 à 100/mm3++ parfois 100 à 1000/mm3 (Lymphycote &gt;50%)<div><b><u>• Glycorachie:</u></b></div><div>-2/3x glycemie =viral</div><div>-&lt;0,4x glycemie = listeria ou BK</div><div><b><u>• Proteinorachie:</u></b></div><div>&lt;1g/L</div><div><b><u>• Lactatorachie:&nbsp;</u></b></div><div>&lt;3,2mmol/L</div><div><b><u>• Examen direct:</u></b></div><div>-Neg si viral</div><div>-Positif dans moins de 1/3 des cas si listeria ou BK</div></div>"
+            ],
+            "flags": 0,
+            "guid": "A~rtpWU[K(",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "37d7d81f31564c4cad848ae1003f2be9-oa-1",
+                "",
+                "<img src=\"tmprprv9hp3.png\" />",
+                "<img src=\"37d7d81f31564c4cad848ae1003f2be9-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"37d7d81f31564c4cad848ae1003f2be9-oa-1-A.svg\" />",
+                "<img src=\"37d7d81f31564c4cad848ae1003f2be9-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "cXFR:>}:uE",
+            "newlyAdded": false,
+            "note_model_uuid": "0f853108-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>pneumocoque&nbsp;<div>méningocoque&nbsp;<br></div></div><div>listeria&nbsp;<br></div><div><br></div><div>= quel type de bactérie</div>",
+                "<div><div>pneumocoque =&nbsp;<span class=\"bg_yellow\">diplocoque</span>&nbsp;gram+</div></div><div>méningocoque =&nbsp;<span class=\"bg_yellow\">diplocoque</span>&nbsp;gram-</div><div>Listeria = <b><u>Bacille</u></b> gram+<br></div>"
+            ],
+            "flags": 0,
+            "guid": "rP3nv*v=72",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><font color=\"#212094\"><b><u>Terrain:</u></b></font></div><div>[[oc1::• <b>Pas de terrain:</b> en général &lt;25ans non immuns</div><div><div>• Saison <b>hivernale</b> avec notion de <b>cas groupé</b></div><div>• <u>Absence</u> de vaccination]]</div></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:&nbsp;</span></div><div>[[oc1::• <b>Début brutal</b></div><div><div><div>• <b>Purpura</b></div></div><div>• <b>SD méningé franc</b></div><div>• <u>Pas de signes de focalisation</u><u>]]</u></div></div><div><u><br></u></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Antibiothérapie:</span></div><div>[[oc1::• <b>C3G parenterale</b> en probabiliste</div><div><div>• <b>Amoxicilline relais</b> si pas de resistance</div><div>• Durée <u>4j si favorable, sinon 7j</u></div><div>• <u>Si allergie aux C3G:</u> <b>ciprofloxacine</b> (=fluoroquinolone, ou rifampicine)]]</div></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Ttt préventif:</span></div><div>[[oc1::• <b>Antibio+vaccin des cas contacts</b></div><div><div>• Déclaration obligatoire]]</div></div>",
+                "<span class=\"bigger_font\">Méningite à méningocoque</span>",
+                "",
+                "",
+                "",
+                "",
+                "0,1,0 | n,n,n,n",
+                "<div><font color=\"#212094\"><b><u>Terrain:</u></b></font></div><div>{{c1::• <b>Pas de terrain:</b> en général &lt;25ans non immuns</div><div><div>• Saison <b>hivernale</b> avec notion de <b>cas groupé</b></div><div>• <u>Absence</u> de vaccination}}</div></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:&nbsp;</span></div><div>{{c1::• <b>Début brutal</b></div><div><div><div>• <b>Purpura</b></div></div><div>• <b>SD méningé franc</b></div><div>• <u>Pas de signes de focalisation</u><u>}}</u></div></div><div><u><br></u></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Antibiothérapie:</span></div><div>{{c1::• <b>C3G parenterale</b> en probabiliste</div><div><div>• <b>Amoxicilline relais</b> si pas de resistance</div><div>• Durée <u>4j si favorable, sinon 7j</u></div><div>• <u>Si allergie aux C3G:</u> <b>ciprofloxacine</b> (=fluoroquinolone, ou rifampicine)}}</div></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Ttt préventif:</span></div><div>{{c1::• <b>Antibio+vaccin des cas contacts</b></div><div><div>• Déclaration obligatoire}}</div></div>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<div><font color=\"#212094\"><b><u>Terrain:</u></b></font></div><div>{{c27::• <b>Pas de terrain:</b> en général &lt;25ans non immuns</div><div><div>• Saison <b>hivernale</b> avec notion de <b>cas groupé</b></div><div>• <u>Absence</u> de vaccination}}</div></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:&nbsp;</span></div><div>{{c27::• <b>Début brutal</b></div><div><div><div>• <b>Purpura</b></div></div><div>• <b>SD méningé franc</b></div><div>• <u>Pas de signes de focalisation</u><u>}}</u></div></div><div><u><br></u></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Antibiothérapie:</span></div><div>{{c27::• <b>C3G parenterale</b> en probabiliste</div><div><div>• <b>Amoxicilline relais</b> si pas de resistance</div><div>• Durée <u>4j si favorable, sinon 7j</u></div><div>• <u>Si allergie aux C3G:</u> <b>ciprofloxacine</b> (=fluoroquinolone, ou rifampicine)}}</div></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Ttt préventif:</span></div><div>{{c27::• <b>Antibio+vaccin des cas contacts</b></div><div><div>• Déclaration obligatoire}}</div></div>"
+            ],
+            "flags": 0,
+            "guid": "k/*!a.DnUW",
+            "newlyAdded": false,
+            "note_model_uuid": "0f5a5fa0-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quels sont les causes de méningites lymphocyctaires hypoglycorachiques ?",
+                "<div><b><span class=\"bg_yellow\">Méningite a BK ou listeria&nbsp;</span><br></b></div><div><span class=\"bg_yellow\"><br></span></div><div><u>Autre:</u></div><div>• Cryptococcus neoformans</div><div>• Certaines méningites carcinomateuses</div>"
+            ],
+            "flags": 0,
+            "guid": "ttZaMI5y($",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Terrain:&nbsp;</span></div><div>[[oc1::• Personne <b>immunodéprimé</b><div>• <b>Infection ORL et pulmonaire</b></div><div>• <b>Breche ostéoméningé</b> par TC ou chirurgie récente</div><div>• <u>Absence</u> de vaccination</div>]]</div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>[[oc2::• <b>Brutale</b> <u>concomittant</u> a une<b> infection des voies aeriennes</b> (otite, sinusite, pneumonie)</div><div><div>•&nbsp;<u>Purpura possible</u>&nbsp;mais bcp plus rare que le méningocoque</div><div>• <b>SD méningé franc</b></div><div>• <b>Signe de focalisation ++ coma convulsions</b>]]</div></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Antibiothérapie:</span></div><div>[[oc2::<b>C3G 10 à 14j</b> (10j si evolution favorable et souche sensible)]]</div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">ttt preventif:</span></div><div>[[oc2::• Pas de précautions complémentaires d'hygienes ni antibioprophylaxie<div>• <b>ttt porte d'entrée ORL/pulmonaire</b></div><div>• <b>Vaccination</b>]]</div></div>",
+                "<span class=\"bigger_font\">Méningite à pneumocoque</span>",
+                "",
+                "",
+                "",
+                "",
+                "0,1,0 | n,n,n,n",
+                "<div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Terrain:&nbsp;</span></div><div>{{c1::• Personne <b>immunodéprimé</b><div>• <b>Infection ORL et pulmonaire</b></div><div>• <b>Breche ostéoméningé</b> par TC ou chirurgie récente</div><div>• <u>Absence</u> de vaccination</div>}}</div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>...</div></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Antibiothérapie:</span></div><div>...</div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">ttt preventif:</span></div><div>...</div></div>",
+                "<div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Terrain:&nbsp;</span></div><div>...</div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>{{c2::• <b>Brutale</b> <u>concomittant</u> a une<b> infection des voies aeriennes</b> (otite, sinusite, pneumonie)</div><div><div>•&nbsp;<u>Purpura possible</u>&nbsp;mais bcp plus rare que le méningocoque</div><div>• <b>SD méningé franc</b></div><div>• <b>Signe de focalisation ++ coma convulsions</b>}}</div></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Antibiothérapie:</span></div><div>{{c2::<b>C3G 10 à 14j</b> (10j si evolution favorable et souche sensible)}}</div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">ttt preventif:</span></div><div>{{c2::• Pas de précautions complémentaires d'hygienes ni antibioprophylaxie<div>• <b>ttt porte d'entrée ORL/pulmonaire</b></div><div>• <b>Vaccination</b>}}</div></div>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Terrain:&nbsp;</span></div><div>{{c27::• Personne <b>immunodéprimé</b><div>• <b>Infection ORL et pulmonaire</b></div><div>• <b>Breche ostéoméningé</b> par TC ou chirurgie récente</div><div>• <u>Absence</u> de vaccination</div>}}</div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>{{c27::• <b>Brutale</b> <u>concomittant</u> a une<b> infection des voies aeriennes</b> (otite, sinusite, pneumonie)</div><div><div>•&nbsp;<u>Purpura possible</u>&nbsp;mais bcp plus rare que le méningocoque</div><div>• <b>SD méningé franc</b></div><div>• <b>Signe de focalisation ++ coma convulsions</b>}}</div></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Antibiothérapie:</span></div><div>{{c27::<b>C3G 10 à 14j</b> (10j si evolution favorable et souche sensible)}}</div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">ttt preventif:</span></div><div>{{c27::• Pas de précautions complémentaires d'hygienes ni antibioprophylaxie<div>• <b>ttt porte d'entrée ORL/pulmonaire</b></div><div>• <b>Vaccination</b>}}</div></div>"
+            ],
+            "flags": 0,
+            "guid": "I[aMH-WP$3",
+            "newlyAdded": false,
+            "note_model_uuid": "0f5a5fa0-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><span class=\"bold_underlined\">Bactérie:&nbsp;</span></div><div>[[oc1::<b>Mycobacterium</b> complex <b>tuberculosis</b>]]</div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>[[oc2::• Début <b><u>progressif</u></b> avec <b>AEG</b><div>• SD méningé <u>frustre</u> avec <b>fievres et sueurs</b></div><div>• <b>Manifestation psychiatrique, signes de focalisation neurologique</b><br></div>]]<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen complémentaire:</span></div><div>[[oc3::• <b>SIADH</b> (hyponatremie)<div>• <b>LCS lymphocytaire</b> (25-100éléments/mm3) <b>protéinorachie &gt;1g/L</b></div><div>• Examen direct rarement positif, <b>PCR BK dans le LCS, culture positive en 3-6semaines</b></div><div>• <b>Scanner thoracique:</b> recherche de miliaire</div>]]<br></div>",
+                "<span class=\"bigger_font\">Méningite tuberculeuse</span>",
+                "",
+                "",
+                "",
+                "",
+                "0,1,0 | n,n,n,n",
+                "<div><span class=\"bold_underlined\">Bactérie:&nbsp;</span></div><div>{{c1::<b>Mycobacterium</b> complex <b>tuberculosis</b>}}</div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen complémentaire:</span></div><div>...<br></div>",
+                "<div><span class=\"bold_underlined\">Bactérie:&nbsp;</span></div><div>...</div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>{{c2::• Début <b><u>progressif</u></b> avec <b>AEG</b><div>• SD méningé <u>frustre</u> avec <b>fievres et sueurs</b></div><div>• <b>Manifestation psychiatrique, signes de focalisation neurologique</b><br></div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen complémentaire:</span></div><div>...<br></div>",
+                "<div><span class=\"bold_underlined\">Bactérie:&nbsp;</span></div><div>...</div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen complémentaire:</span></div><div>{{c3::• <b>SIADH</b> (hyponatremie)<div>• <b>LCS lymphocytaire</b> (25-100éléments/mm3) <b>protéinorachie &gt;1g/L</b></div><div>• Examen direct rarement positif, <b>PCR BK dans le LCS, culture positive en 3-6semaines</b></div><div>• <b>Scanner thoracique:</b> recherche de miliaire</div>}}<br></div>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<div><span class=\"bold_underlined\">Bactérie:&nbsp;</span></div><div>{{c27::<b>Mycobacterium</b> complex <b>tuberculosis</b>}}</div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>{{c27::• Début <b><u>progressif</u></b> avec <b>AEG</b><div>• SD méningé <u>frustre</u> avec <b>fievres et sueurs</b></div><div>• <b>Manifestation psychiatrique, signes de focalisation neurologique</b><br></div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen complémentaire:</span></div><div>{{c27::• <b>SIADH</b> (hyponatremie)<div>• <b>LCS lymphocytaire</b> (25-100éléments/mm3) <b>protéinorachie &gt;1g/L</b></div><div>• Examen direct rarement positif, <b>PCR BK dans le LCS, culture positive en 3-6semaines</b></div><div>• <b>Scanner thoracique:</b> recherche de miliaire</div>}}<br></div>"
+            ],
+            "flags": 0,
+            "guid": "Fi#ppFy=UH",
+            "newlyAdded": false,
+            "note_model_uuid": "0f5a5fa0-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quels sont les bactéries responsable de méningite lymphocytaires normoglycorachiques aigues?",
+                "<b>• Syphilis</b><div><b>• Lyme</b></div><div><b>• leptospirose</b></div><div><br></div><div><b><u>NB</u></b>: <u>syphilis et lyme</u> sont le plus souvent responsable de <b>méningo radiculites à liquide clair</b> (uveite ou atteinte des paires craniennes)</div>"
+            ],
+            "flags": 0,
+            "guid": "w$1S<0){w|",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quels sont les causes de méningites virales? (5)",
+                "• <b>Enterovirus</b> (90% des méningites virales)<div>• <b>Oreillons</b> (parotidite)</div><div>• <b>Varicelle/zona&nbsp;</b></div><div>• <b>Primoinfection à VIH</b></div><div>• <b>HSV1, HSV2 CMV</b>, EBV (bcp plus rare que HSV)</div>"
+            ],
+            "flags": 0,
+            "guid": "yFgp/5X#rQ",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Modalité de prescription de corticoide dans la méningite?",
+                "on privilegie dexamethasone IV<div>dans l'ideal avant l'ATB, au plus tard dans les 12h</div><div>Durée totale de ttt: 4j</div>"
+            ],
+            "flags": 0,
+            "guid": "IHcEotL5o3",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Bactériologie:&nbsp;</span></div><div>[[oc1::• <b>Bacille gram positif</b><div>• Présent dans l'environnement</div><div>• Contamination <u>digestive</u> (crudité, fromages non pasteurisé)</div>]]<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>[[oc2::• Début <b>progressif</b><div>• <b>Rhombencéphalite avec SD méningé</b></div><div>• signes d'<b>atteinte du tronc cérébral</b> (en particulier paralysie des nerfs craniens)</div><div></div>]]<br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen complémentaires:</span></div><div>[[oc3::• <b>LCS panachée</b> mais parfois purulent ou lymphocytaire<div>• Examen direct positif dans 40% des cas</div><div>• Hypoglycorachie</div><div>• Hémoculture</div>]]<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">TTT:</span></div><div>[[oc4::• Amox + gentamicine (<b>21j et 5j respectivement</b>)<div>• Allergie au b lactamines: <b>cotrimoxazole en monothérapie 21j</b></div>]]<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">ttt preventif:</span></div><div>[[oc5::• <b>Pas de transmission interhumaine</b>, regles d'hygiene alimentaire chez les sujets à risques<div>• Controle sanitaire des aliments</div>]]<br></div>",
+                "<span class=\"bigger_font\">Méningite à listeria monocytogenes</span>",
+                "",
+                "",
+                "",
+                "",
+                "0,1,0 | n,n,n,n",
+                "<div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Bactériologie:&nbsp;</span></div><div>{{c1::• <b>Bacille gram positif</b><div>• Présent dans l'environnement</div><div>• Contamination <u>digestive</u> (crudité, fromages non pasteurisé)</div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>...<br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen complémentaires:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">TTT:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">ttt preventif:</span></div><div>...<br></div>",
+                "<div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Bactériologie:&nbsp;</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>{{c2::• Début <b>progressif</b><div>• <b>Rhombencéphalite avec SD méningé</b></div><div>• signes d'<b>atteinte du tronc cérébral</b> (en particulier paralysie des nerfs craniens)</div><div></div>}}<br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen complémentaires:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">TTT:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">ttt preventif:</span></div><div>...<br></div>",
+                "<div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Bactériologie:&nbsp;</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>...<br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen complémentaires:</span></div><div>{{c3::• <b>LCS panachée</b> mais parfois purulent ou lymphocytaire<div>• Examen direct positif dans 40% des cas</div><div>• Hypoglycorachie</div><div>• Hémoculture</div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">TTT:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">ttt preventif:</span></div><div>...<br></div>",
+                "<div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Bactériologie:&nbsp;</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>...<br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen complémentaires:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">TTT:</span></div><div>{{c4::• Amox + gentamicine (<b>21j et 5j respectivement</b>)<div>• Allergie au b lactamines: <b>cotrimoxazole en monothérapie 21j</b></div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">ttt preventif:</span></div><div>...<br></div>",
+                "<div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Bactériologie:&nbsp;</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>...<br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen complémentaires:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">TTT:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">ttt preventif:</span></div><div>{{c5::• <b>Pas de transmission interhumaine</b>, regles d'hygiene alimentaire chez les sujets à risques<div>• Controle sanitaire des aliments</div>}}<br></div>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Bactériologie:&nbsp;</span></div><div>{{c27::• <b>Bacille gram positif</b><div>• Présent dans l'environnement</div><div>• Contamination <u>digestive</u> (crudité, fromages non pasteurisé)</div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>{{c27::• Début <b>progressif</b><div>• <b>Rhombencéphalite avec SD méningé</b></div><div>• signes d'<b>atteinte du tronc cérébral</b> (en particulier paralysie des nerfs craniens)</div><div></div>}}<br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen complémentaires:</span></div><div>{{c27::• <b>LCS panachée</b> mais parfois purulent ou lymphocytaire<div>• Examen direct positif dans 40% des cas</div><div>• Hypoglycorachie</div><div>• Hémoculture</div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">TTT:</span></div><div>{{c27::• Amox + gentamicine (<b>21j et 5j respectivement</b>)<div>• Allergie au b lactamines: <b>cotrimoxazole en monothérapie 21j</b></div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">ttt preventif:</span></div><div>{{c27::• <b>Pas de transmission interhumaine</b>, regles d'hygiene alimentaire chez les sujets à risques<div>• Controle sanitaire des aliments</div>}}<br></div>"
+            ],
+            "flags": 0,
+            "guid": "e)xe[2f_f&",
+            "newlyAdded": false,
+            "note_model_uuid": "0f5a5fa0-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><span class=\"bold_underlined\">Clinique:&nbsp;</span></div><div>[[oc1::• SD méningé intense à début brutal<div>• Fièvre élevée</div><div>• <b>Signes extra meningés: myalgie, rash, sympto digestives</b></div>]]<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen virologique:</span></div><div>[[oc2::•&nbsp;<span style=\"font-weight: bolder;\">PCR entérovirus dans le LCS</span></div><div>• Recherche<b> </b><u>primo infection VIH </u>en cas de facteur de risque:<b> PCR ARN VIH ou antigénémie p24</b><div><br></div>]]<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Traitement:</span></div><div>[[oc3::• <b><u>sympto dans la plupart des cas:</u></b><div>-equilibration hydro electrolytique</div><div>-paracetamol/antalgique/antiémétique</div><div>-prevention des complications de décubitus</div><div>• <b><u>Si primo VIH:</u></b> ttt antirétroviral</div><div>• <b><u>Méningite isolée à HSV:</u></b> aciclovir n'a pas démontrée son interet dans les méningites à HSV en l'absence d'éncephalite</div>]]<br></div>",
+                "<span class=\"bigger_font\">Méningite virales</span>",
+                "",
+                "",
+                "",
+                "",
+                "0,1,0 | n,n,n,n",
+                "<div><span class=\"bold_underlined\">Clinique:&nbsp;</span></div><div>{{c1::• SD méningé intense à début brutal<div>• Fièvre élevée</div><div>• <b>Signes extra meningés: myalgie, rash, sympto digestives</b></div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen virologique:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Traitement:</span></div><div>...<br></div>",
+                "<div><span class=\"bold_underlined\">Clinique:&nbsp;</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen virologique:</span></div><div>{{c2::• Recherche<b> </b><u>primo infection VIH </u>en cas de facteur de risque:<b> PCR ARN VIH ou antigénémie p24</b><div>• <b>PCR entérovirus dans le LCS</b></div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Traitement:</span></div><div>...<br></div>",
+                "<div><span class=\"bold_underlined\">Clinique:&nbsp;</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen virologique:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Traitement:</span></div><div>{{c3::• <b><u>sympto dans la plupart des cas:</u></b><div>-equilibration hydro electrolytique</div><div>-paracetamol/antalgique/antiémétique</div><div>-prevention des complications de décubitus</div><div>• <b><u>Si primo VIH:</u></b> ttt antirétroviral</div><div>• <b><u>Méningite isolée à HSV:</u></b> aciclovir n'a pas démontrée son interet dans les méningites à HSV en l'absence d'éncephalite</div>}}<br></div>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<div><span class=\"bold_underlined\">Clinique:&nbsp;</span></div><div>{{c27::• SD méningé intense à début brutal<div>• Fièvre élevée</div><div>• <b>Signes extra meningés: myalgie, rash, sympto digestives</b></div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examen virologique:</span></div><div>{{c27::• Recherche<b> </b><u>primo infection VIH </u>en cas de facteur de risque:<b> PCR ARN VIH ou antigénémie p24</b><div>• <b>PCR entérovirus dans le LCS</b></div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Traitement:</span></div><div>{{c27::• <b><u>sympto dans la plupart des cas:</u></b><div>-equilibration hydro electrolytique</div><div>-paracetamol/antalgique/antiémétique</div><div>-prevention des complications de décubitus</div><div>• <b><u>Si primo VIH:</u></b> ttt antirétroviral</div><div>• <b><u>Méningite isolée à HSV:</u></b> aciclovir n'a pas démontrée son interet dans les méningites à HSV en l'absence d'éncephalite</div>}}<br></div>"
+            ],
+            "flags": 0,
+            "guid": "N%kx$sg`m;",
+            "newlyAdded": false,
+            "note_model_uuid": "0f5a5fa0-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "c5aa4263638044dd815d1e2cae229a84-oa-3",
+                "",
+                "<img src=\"tmpwvcy0v2t.png\" />",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-3-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-3-A.svg\" />",
+                "<img src=\"c5aa4263638044dd815d1e2cae229a84-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "Nsx%=+YPq>",
+            "newlyAdded": false,
+            "note_model_uuid": "0f853108-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><span class=\"bold_underlined\">Virologie:&nbsp;</span></div><div>[[oc1::• <b>HSV1+++</b>, HSV2 rarement</div><div>• Lésions prédominent <b>lobe temporaux avec lésions nécrotiques</b></div><div>• Réactivation chez l'adulte, primo infection chez l'enfant</div><div>]]<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Terrain:</span></div><div>[[oc2::<b>80% des cas age &lt;20ans ou &gt;50ans</b></div><div>]]<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>[[oc3::<b><u>Signes cliniques en rapport avec localisation temporale:</u></b></div><div>• tb du comportement</div><div>• tb mnésiques</div><div>• aphasie</div><div>• crises convulsives temporales</div><div>]]<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examens complémentaires:</span></div><div>[[oc4::• <b><u>EEG</u></b>: décharge périodiques d'ondes lentes au niveau temporal</div><div>• <b><u>Imagerie cérébrale</u></b>: lésions <u>hypodense</u> fronto temporale bilat asymétriques</div><div>• <b><u>PCR HSV:</u></b> positif, peut être négatif jusqu'a 4j après début signes cliniques (refaire PL à 4j si négatif)</div><div>]]<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Evolution:</span></div><div>[[oc5::• Une des méningo encephalites les plus graves</div><div>• <b>80% de mortalité sans ttt, sequelle chez 50% des patients</b></div><div>]]</div>",
+                "<span class=\"bigger_font\">Méningo encephalite herpétique</span>",
+                "",
+                "",
+                "",
+                "",
+                "0,1,0 | n,n,n,n",
+                "<div><span class=\"bold_underlined\">Virologie:&nbsp;</span></div><div>{{c1::• <b>HSV1+++</b>, HSV2 rarement</div><div>• Lésions prédominent <b>lobe temporaux avec lésions nécrotiques</b></div><div>• Réactivation chez l'adulte, primo infection chez l'enfant</div><div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Terrain:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examens complémentaires:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Evolution:</span></div><div>...</div>",
+                "<div><span class=\"bold_underlined\">Virologie:&nbsp;</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Terrain:</span></div><div>{{c2::<b>80% des cas age &lt;20ans ou &gt;50ans</b></div><div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examens complémentaires:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Evolution:</span></div><div>...</div>",
+                "<div><span class=\"bold_underlined\">Virologie:&nbsp;</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Terrain:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>{{c3::<b><u>Signes cliniques en rapport avec localisation temporale:</u></b></div><div>• tb du comportement</div><div>• tb mnésiques</div><div>• aphasie</div><div>• crises convulsives temporales</div><div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examens complémentaires:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Evolution:</span></div><div>...</div>",
+                "<div><span class=\"bold_underlined\">Virologie:&nbsp;</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Terrain:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examens complémentaires:</span></div><div>{{c4::• <b><u>EEG</u></b>: décharge périodiques d'ondes lentes au niveau temporal</div><div>• <b><u>Imagerie cérébrale</u></b>: lésions <u>hypodense</u> fronto temporale bilat asymétriques</div><div>• <b><u>PCR HSV:</u></b> positif, peut être négatif jusqu'a 4j après début signes cliniques (refaire PL à 4j si négatif)</div><div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Evolution:</span></div><div>...</div>",
+                "<div><span class=\"bold_underlined\">Virologie:&nbsp;</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Terrain:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examens complémentaires:</span></div><div>...<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Evolution:</span></div><div>{{c5::• Une des méningo encephalites les plus graves</div><div>• <b>80% de mortalité sans ttt, sequelle chez 50% des patients</b></div><div>}}</div>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<div><span class=\"bold_underlined\">Virologie:&nbsp;</span></div><div>{{c27::• <b>HSV1+++</b>, HSV2 rarement</div><div>• Lésions prédominent <b>lobe temporaux avec lésions nécrotiques</b></div><div>• Réactivation chez l'adulte, primo infection chez l'enfant</div><div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Terrain:</span></div><div>{{c27::<b>80% des cas age &lt;20ans ou &gt;50ans</b></div><div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Clinique:</span></div><div>{{c27::<b><u>Signes cliniques en rapport avec localisation temporale:</u></b></div><div>• tb du comportement</div><div>• tb mnésiques</div><div>• aphasie</div><div>• crises convulsives temporales</div><div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Examens complémentaires:</span></div><div>{{c27::• <b><u>EEG</u></b>: décharge périodiques d'ondes lentes au niveau temporal</div><div>• <b><u>Imagerie cérébrale</u></b>: lésions <u>hypodense</u> fronto temporale bilat asymétriques</div><div>• <b><u>PCR HSV:</u></b> positif, peut être négatif jusqu'a 4j après début signes cliniques (refaire PL à 4j si négatif)</div><div>}}<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Evolution:</span></div><div>{{c27::• Une des méningo encephalites les plus graves</div><div>• <b>80% de mortalité sans ttt, sequelle chez 50% des patients</b></div><div>}}</div>"
+            ],
+            "flags": 0,
+            "guid": "qr5By|KL(e",
+            "newlyAdded": false,
+            "note_model_uuid": "0f5a5fa0-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Qui s'occupe des contact familiaux et extra familiaux ?",
+                "<u>med G: </u>contact familiaux<div><u>ARS:</u> contact extra familiaux</div>"
+            ],
+            "flags": 0,
+            "guid": "v+rK0_=ow>",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Définition d'un sujet contact ?",
+                "• proche à <b>&lt;1m&nbsp;</b><div>• pendant<b> &gt;1h</b></div><div>• par un <b>sujet infecté &lt;10jours&nbsp;</b></div>"
+            ],
+            "flags": 0,
+            "guid": "m%SL.)l{s7",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Prise en charge de l'antibioprophylaxie des cas témoins ?",
+                "<div><span style=\"background-color: rgb(255, 255, 0);\"><b>• ATB: rifampicine per os pendant 2j</b></span></div><div>• <b>débuté dans les 24-48h, max 10j</b><br></div><div>• Concerne <u>tous les sujets contacts identifiés, même si vacciné</u></div><div>• <u>pour les femmes en age de procréer:</u> nécessité <b>contraception mécanique</b> pendant tte la durée du ttt</div><div>• <u>Si ttt 4j precedant accouchement:</u> <b>supplementation vitK</b></div><div><br></div><div><u><b>NB:</b></u> si resistance à la rifampicine, utiliser <b>ceftriaxone</b> ou <b>ciprofloxacine</b> à <u>dose unique</u></div>"
+            ],
+            "flags": 0,
+            "guid": "AilJrQ>XRM",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Caractéristique des vaccinations des sujets à risque de méningite à méningocoque?",
+                "• Vaccins polyosidique <b><u>non conjugué:</u></b><div>-pas efficace &lt;2ans</div><div>-ne supprime pas le portage A+C</div><div><br></div><div>• Vaccin polyosidique <b><u>conjugué</u></b>:</div><div>-efficace avant &lt;2ans</div><div>-réduit le portage C et ACYW</div><div><br></div><div><b><u>• Pour le sérogroupe B:</u></b></div><div>Vaccin protéique ayant AMM depuis 2013 seulement dans situation particulieres</div><div><br></div><div><span class=\"bg_yellow\"><b>Immunogénicité &gt;90%</b></span><br></div>"
+            ],
+            "flags": 0,
+            "guid": "d#u+Wg=Rv7",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "CAT des vaccinations des cas index dans la méningite à méningocoque ?&nbsp;",
+                "<span class=\"bold_bigger\">Pour le cas index:</span><div>pas besoin de vacciner, la maladie lui donnant une immunité<div><br></div><div><span style=\"color: rgb(179, 7, 7); font-weight: bold; text-decoration-line: underline;\">Pour les cas témoins:</span></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Si sérogroupe A, C,Y ou W:</span></div><div>• Vaccination obligatoire <b><u>conjugué</u></b> C ou ACYW&nbsp;<br></div><div>• <b>Agit</b> sur le portage</div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Si sérogroupe B:</span></div><div>• Vaccination seulement sur décision autorités sanitaires sur <b>situation épidemie/hyperendemie</b><br></div><div>• ce vaccin <b>n'agit pas</b> sur le portage</div></div>"
+            ],
+            "flags": 0,
+            "guid": "h1&^Js0UzI",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "CAT devant un patient immunodéprimé/asplenique pour la vaccination à méningocoque ?",
+                "<div><span style=\"color: rgb(179, 7, 7); font-weight: bold; text-decoration-line: underline;\">Dans les situations de :</span></div><div>• déficit en<b> fraction terminale du complément</b><br></div><div>• déficit en <b>properdine</b></div><div>• <b>asplénie</b> anatomique ou fonctionnelle</div><div>• <b>greffe de cellules souches hématopoietiques</b></div><div><br></div><div><span style=\"color: rgb(179, 7, 7); font-weight: bold; text-decoration-line: underline;\">Il faut:</span></div><div>•<b> Vaccin tétravalent conjugué ACYW</b><br></div><div>• <b>Vaccin méningocoque B</b></div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "Q_Xi&4EA2T",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pneumocoques mesures preventives?",
+                "• <u>Pas d'isolement ni d'antibioprophylaxie</u><div>• <b>vaccinations</b> des <u>sujets à risques</u></div><div>• <b>Pénicilline G</b> au long cours chez les <u>patients splénectomisés</u> récents</div><div>• <b>Recherche de corps de Joly </b>(asplénie)<br></div><div>• <b>Rechercher et ttt les facteurs favorisants:</b></div><div>-bilan ORL</div><div>-EPP</div><div>-Dépistage VIH</div><div>-Recherche breche osteodurale en TDM axiales et frontales avec fenetres osseuses si interrogatoire/clinique douteux</div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "FG}<QK0n!J",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mesure preventive dans la méningite virale ?",
+                "Vaccination oreillons et poliomyélite<div>Prevention du VIH</div>"
+            ],
+            "flags": 0,
+            "guid": "b1yl:cfNHi",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Indication de l'imagerie dans la méningite bactérienne ?",
+                "• Evolution<b> défavorable à 48-72h</b><div>• Survenue de <b>nvx signes neuro</b></div><div>• <b>ATCD de TC, suspicion de breche osteo durale</b><br></div><div>• <b>Méningite à pneumocoque </b>compliquant otite,sinusite, mastoidite, ou <u>sans porte d'entrée retrouvé</u></div><div><div>• Méningite à bacteries autre que meningocoque/pneumocoque</div></div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "ryI/5Dv#IZ",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Indication d'une PL de controle dans la méningite bactérienne ?<div>Quel est le suivis ?</div>",
+                "• <b>Evolution défavorable</b> <u>sans anomalie à l'imagerie cerebrale</u> de controle<div>• <b>méningite à pneumocoque avec sensibilité diminuée aux C3G</b></div><div>• <b>Méningite autres que :</b></div><div>-pneumocoque</div><div>-méningocoque</div><div>-listeria<br></div><div>-haeomophilus</div><div><br></div><div><b><u>Suivis jusqu'à 1an:</u></b></div><div>-neuropsychologique</div><div>-audiométrique</div>"
+            ],
+            "flags": 0,
+            "guid": "fp`5SG0AuB",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Causes virales de méningo encephalite à liquide clair?",
+                "• <b>HSV1</b> (1er cause, 25% des cas)<div>• autre groupe herpes: <b>VZV</b>, CMV, EBV, HSV2</div><div>• Enterovirus</div><div>• <b>VIH</b></div><div>• Rage</div>"
+            ],
+            "flags": 0,
+            "guid": "k3?1MMde=)",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Causes bactérienne de méningo encephalite à liquide clair? (6)",
+                "<b>• BK</b><div><b>• Listeria monocytogenes</b></div><div>• Borrelia spp</div><div>• Syphilis</div><div>• Leptospirose</div><div>• <u>Mycoplasma</u> pneumoniae</div>"
+            ],
+            "flags": 0,
+            "guid": "B{A+F+/.m&",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cause non infectieuse de méningo encephalite à liquide clair ?",
+                "<div>• Medicamenteuses</div><div><div>• Post infectieuses</div></div><div><br></div><div>• Paranéoplasique<br></div><div>• Auto immunes</div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "daBwgC$Gp~",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Epidemiologie de l'encephalite à liquide claire?",
+                "peu fréquent mais grave:<div>2% de mortalité chez l'enfant, 10% chez l'homme</div><div>40% sequelles neuropsychologiques 3ans après épisode</div>"
+            ],
+            "flags": 0,
+            "guid": "dM~a&2u<:{",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Suspicion clinique de méningo encephalite ?",
+                "• <b>association</b>&nbsp;<span class=\"bg_yellow\"><b>fievre + signes neurologique centraux</b></span><div>• avec <b>SD méningué</b> souvent <u>peu marqué</u></div>"
+            ],
+            "flags": 0,
+            "guid": "c,)(:F4>jH",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Prise en charge de la méningo encephalite?",
+                "<b>1)&nbsp;PL + 2 hemoc</b> (Si CI IRM cerebrale en premier)<div><b>2)</b>&nbsp;<b>si encephalite clinique + méningite lymphocytaire normoglycorachique:&nbsp;</b></div><div>aciclovir IV + Amox IV</div><div><b>3)</b>&nbsp;<b>Ensuite IRM cérébrale, EEG et bilan bio</b> (pas oublier <u>calcemie</u>, et frottis + goutte épaisse à recherche palu si zone endemique &lt;6mois)</div><div><br><b>4) Examen du LCR:</b></div><div>Comme méningite avec en plus PCR <b>HSV, VZV et entérovirus</b></div><div><br></div><div><b>5) En fonction des étiologies retrouvé, adaptation ttt:</b></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">HSV, VZV prouvé:</span></div><div>Aciclovir IV 14j (21j si immunodéprimé)<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Si Listeria prouvé:</span></div><div>Amox IV + gentamycine IV (21j/5j)<br></div><div><br></div><div><span style=\"color: rgb(33, 32, 148); font-weight: bold; text-decoration-line: underline;\">Si Tuberculose prouvé:</span></div><div>• Ajout dexamethazone<br></div><div>• INH RMP PZA EMB 2mois puis INH RMP 10mois</div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "JT[*fU1yol",
+            "newlyAdded": false,
+            "note_model_uuid": "0f85078c-48f8-11ea-a583-20c9d0810917",
+            "tags": []
+        }
+    ]
+}
